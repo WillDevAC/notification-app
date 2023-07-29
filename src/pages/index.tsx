@@ -157,7 +157,7 @@ export default function Home() {
 
       <Head>
         <title>Web Push Notifications Demo | Magic Bell</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="/favicon.jpg"/>
         <meta
           name="description"
           content="Web push notifications demo and starter template with support for iOS Safari PWA notifications."

@@ -53,7 +53,7 @@ class MagicBell {
     }
     return fetch("https://api.magicbell.com/subscriptions", {
       headers: {
-        "X-MAGICBELL-API-KEY": process.env.NEXT_PUBLIC_MAGICBELL_API_KEY,
+        "X-MAGICBELL-API-KEY": "64a2a6fff4d314ce9f44a171a31c84232fe49b6b",
         "X-MAGICBELL-USER-EXTERNAL-ID": userId,
       },
     })
@@ -82,7 +82,7 @@ class MagicBell {
     await fetch(`https://api.magicbell.com/subscriptions`, {
       method: "POST",
       headers: {
-        "X-MAGICBELL-API-KEY": process.env.NEXT_PUBLIC_MAGICBELL_API_KEY,
+        "X-MAGICBELL-API-KEY": "64a2a6fff4d314ce9f44a171a31c84232fe49b6b",
         "X-MAGICBELL-USER-EXTERNAL-ID": userId,
       },
       body: JSON.stringify({

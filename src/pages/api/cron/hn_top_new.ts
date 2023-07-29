@@ -25,8 +25,8 @@ type Story = {
 }
 
 const magicbell = new MagicBell({
-  apiKey: process.env.NEXT_PUBLIC_MAGICBELL_API_KEY,
-  apiSecret: process.env.MAGICBELL_API_SECRET,
+  apiKey: "64a2a6fff4d314ce9f44a171a31c84232fe49b6b",
+  apiSecret: "V8yeZHZymWwCitXVGMYlB7yLrG3YvPFfuxb7Sp72",
 })
 
 const firebaseConfig = {
@@ -62,8 +62,8 @@ export default async function handler(
         headers: {
           accept: "application/json",
           "content-type": "application/json",
-          "X-MAGICBELL-API-KEY": process.env.NEXT_PUBLIC_MAGICBELL_API_KEY,
-          "X-MAGICBELL-API-SECRET": process.env.MAGICBELL_API_SECRET,
+          "X-MAGICBELL-API-KEY": "64a2a6fff4d314ce9f44a171a31c84232fe49b6b",
+          "X-MAGICBELL-API-SECRET": "V8yeZHZymWwCitXVGMYlB7yLrG3YvPFfuxb7Sp72",
         },
         method: "POST",
         body: JSON.stringify({

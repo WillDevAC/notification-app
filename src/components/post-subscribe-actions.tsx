@@ -18,7 +18,7 @@ interface IProps {
 export default function PostSubscribeActions(props: IProps) {
   const handleResend = async () => {
     try {
-      await magicBell.sendNotification("hn_random")
+      await magicBell.sendNotification("welcome")
     } catch (error: any) {
       props.onError(error.message)
     }
